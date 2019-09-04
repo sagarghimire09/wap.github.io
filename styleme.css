@@ -1,0 +1,38 @@
+body {
+    background-color: gray;
+}
+h1, h2 {
+    color : #98c2ff;
+}
+b {
+    color : #dbff04;
+}
+label {
+    font-weight: bold;
+}
+ul#course {
+    font-family: Verdana;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+}
+.movienote {
+    color: lightgreen;
+}
+p.dropcap:first-letter {
+    font-size: 1.5em;
+}
+ol#movie a {
+    color: #ff3336;
+    text-decoration: none;
+}
+ol#movie a:hover {
+    text-decoration: underline;
+}
+ol#movie dl dt {
+    color: #fff34c;
+}
+#neighbor {
+    font-family: "Courier New";
+    font-size : 15px;
+}
