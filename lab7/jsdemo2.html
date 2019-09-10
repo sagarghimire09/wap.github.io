@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Demo</title>
+</head>
+<body>
+<p>See the console for Output</p>
+<script type="text/javascript" src="myjsfile2.js"></script>
+<script>
+    console.log("Expected output of sum([15,5,2]) is 27 " + myFunctionTest(27, function () {
+        return sum([15,5,2]);
+    }));
+
+    console.log("Expected output of multiply([5,3,2]) is 30 " + myFunctionTest(30, function () {
+        return multiply([5,3,2]);
+    }));
+
+    console.log("Expected output of reverse('sagar ghimire') is erimihg ragas " + myFunctionTest("erimihg ragas", function () {
+        return reverse("sagar ghimire");
+    }));
+
+    console.log("Expected output of filterLongWords(['hello', 'world', 'its', 'sagar'], 4) is ['hello', 'world', 'sagar'] " + myFunctionTest(['hello', 'world', 'sagar'], function () {
+        return filterLongWords(['hello', 'world', 'its', 'sagar'], 4);
+    }));
+</script>
+
+</body>
+</html>
